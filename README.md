@@ -1,5 +1,5 @@
 # freeradius-azuread
-FreeRadius server configured to use freeradius LDAP extension. Configured for use with AzureAD LDAPS.
+FreeRadius server with the freeradius LDAP extension. Configured for use with AzureAD LDAPS.
 It uses only LDAPS (port 636) and no certificate gets verified.
 
 Environment Variables
