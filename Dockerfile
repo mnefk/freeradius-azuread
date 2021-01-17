@@ -32,7 +32,8 @@ COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
 
 # Expose the port
-EXPOSE 1812/udp 1813/udp 18120/udp
+EXPOSE 1812/udp 1813/udp 
+#18120/udp
 
 # Run FreeRADIUS
 #CMD freeradius -X
